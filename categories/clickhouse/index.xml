@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>clickhouse on </title>
+    <link>http://qingci.life/categories/clickhouse/</link>
+    <description>Recent content in clickhouse on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>xpy66swsry@gmail.com (qingci)</managingEditor>
+    <webMaster>xpy66swsry@gmail.com (qingci)</webMaster>
+    <lastBuildDate>Tue, 21 Apr 2020 21:02:36 +0800</lastBuildDate>
+    
+        <atom:link href="http://qingci.life/categories/clickhouse/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Clickhouse环境搭建和解析</title>
+        <link>http://qingci.life/posts/clickhouse/</link>
+        <pubDate>Tue, 21 Apr 2020 21:02:36 +0800</pubDate>
+        <author>xpy66swsry@gmail.com (qingci)</author>
+        <atom:modified>Tue, 21 Apr 2020 21:02:36 +0800</atom:modified>
+        <guid>http://qingci.life/posts/clickhouse/</guid>
+        <description>Clickhouse 默认使用docker配置相应的环境: docker run -d --name ck-server --ulimit nofile=262144:262144 -p 9000:9000 -p 8123:8123 -v $HOME/Downloads/ck2_db:/var/lib/clickhouse yandex/clickhouse-server 启动docker docker exec -it ck-server /bin/bash 登录默认的clickhouse clickhouse client</description>
+        
+        <dc:creator>qingci</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>clickhouse</category>
+            
+          
+        
+        
+          
+            
+              <category>clickhouse</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
