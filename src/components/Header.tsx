@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Github, Home, MessageCircle } from 'lucide-react';
+import { Github, Home, MessageCircle, User } from 'lucide-react';
 
 export function Header() {
   return (
@@ -11,6 +11,9 @@ export function Header() {
           <span className="font-semibold text-xl">Colibrow Blog</span>
         </Link>
         <div className="flex items-center space-x-4">
+          <Link to="/about" className="text-gray-600 hover:text-gray-900">
+            <User className="w-6 h-6" />
+          </Link>
           <a
             href="https://github.com/colibrow"
             target="_blank"
@@ -19,7 +22,7 @@ export function Header() {
           >
             <Github className="w-6 h-6" />
           </a>
-          <Link to="/discussions" className="text-gray-600 hover:text-gray-900">
+          <Link to="https://github.com/colibrow/colibrow.github.io/discussions" className="text-gray-600 hover:text-gray-900">
             <MessageCircle className="w-6 h-6" />
           </Link>
         </div>
